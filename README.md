@@ -13,3 +13,6 @@ step 1:
 train minGPT on small and low resolution dataset for functional validation 
 step 2:
 introduce cnn and complex structure for higher resolution or other purpose
+
+
+After some further reflection on this previous idea. I figured out that something like a puzzle solver maybe not that direly needed in the real world as we usually have the  coordinating infomations of the scatter pieces for their original source. Nevertheless, I came up with another problem that, once solved, maybe more meaningful and magnificent to the ML field. The problem is that whether we can design a network, can be simple,  but can learn from the flow of image streams. It does not require lables, but it learns by purely doing comparision - comparision of the contents among the each frames, and by doing this, the network should be able the identify some "moving items" in the stream. conv com between frames
